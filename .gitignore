@@ -29,7 +29,7 @@ backend/*.ogg
 
 # Service account file
 backend/service-account.json
-backend/*.json
+
 
 # Frontend
 

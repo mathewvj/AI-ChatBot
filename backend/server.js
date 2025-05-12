@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Google Cloud TTS Client
 const ttsClient = new textToSpeech.TextToSpeechClient({
-  keyFilename: 'gen-lang-client-0419445402-de87a5010e0e.json'
+  keyFilename: 'service-account.json'
 });
 
 // Google Gemini AI Client
