@@ -12,8 +12,14 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
+const corsOptions = {
+  origin: 'https://ai-chat-bot-sand-ten.vercel.app', // Your frontend's URL
+  methods: 'GET,POST',
+  allowedHeaders: 'Content-Type,Authorization',
+};
+
 // Middlewares
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Google Cloud TTS Client
