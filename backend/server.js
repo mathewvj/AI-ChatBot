@@ -13,7 +13,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: 'https://ai-chat-bot-sand-ten.vercel.app', // Your frontend's URL
+  origin: 'https://ai-maathan.ddns.net/', // Your frontend's URL
   methods: 'GET,POST',
   allowedHeaders: 'Content-Type,Authorization',
 };
