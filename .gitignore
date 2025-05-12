@@ -1,0 +1,80 @@
+# Backend
+
+# Node modules
+backend/node_modules/
+
+# Environment variables
+backend/.env
+
+# Logs
+backend/logs/
+backend/*.log
+backend/npm-debug.log*
+
+# OS-specific
+backend/.DS_Store
+
+# IDE/editor-specific
+backend/.vscode/
+backend/.idea/
+
+# Build files (optional)
+backend/dist/
+backend/build/
+
+# Audio output cache (if any)
+backend/*.mp3
+backend/*.wav
+backend/*.ogg
+
+# Service account file
+backend/service-account.json
+backend/*.json
+
+# Frontend
+
+# Node modules
+frontend/node_modules/
+
+# Logs
+frontend/logs/
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Build files (optional)
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Editor directories and files
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/.idea/
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+# General
+
+# OS-specific
+.DS_Store
+
+# IDE/editor-specific
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
