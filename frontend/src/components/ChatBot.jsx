@@ -79,7 +79,7 @@ const ChatBot = () => {
     setIsFetching(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/chat", {
+      const res = await fetch("https://ai-chatbot-node.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMessage, language: userLang }),
@@ -187,7 +187,7 @@ const ChatBot = () => {
 
   const playVoice = async (text, lang) => {
     try {
-      const res = await fetch("http://localhost:5000/api/speak", {
+      const res = await fetch("https://ai-chatbot-node.onrender.com/api/speak", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text, language: lang }),

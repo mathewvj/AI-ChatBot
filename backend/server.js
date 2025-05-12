@@ -5,6 +5,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const textToSpeech = require('@google-cloud/text-to-speech');
 const fs = require('fs');
 const util = require('util');
+const path = '/var/render/secrets/SERVICE_ACCOUNT_JSON';
 
 dotenv.config();
 
@@ -17,7 +18,7 @@ app.use(express.json());
 
 // Google Cloud TTS Client
 const ttsClient = new textToSpeech.TextToSpeechClient({
-  keyFilename: 'service-account.json'
+  keyFilename: path
 });
 
 // Google Gemini AI Client
