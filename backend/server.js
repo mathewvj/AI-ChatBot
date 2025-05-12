@@ -5,7 +5,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const textToSpeech = require('@google-cloud/text-to-speech');
 const fs = require('fs');
 const util = require('util');
-const path = '/var/render/secrets/SERVICE_ACCOUNT_JSON';
+const path = 'SERVICE_ACCOUNT_JSON';
 
 dotenv.config();
 
