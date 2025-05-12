@@ -34,12 +34,12 @@ body {
   color: var(--text-primary);
   transition: var(--transition);
   height: 100%;
-  overflow: hidden;
 }
 
 .chat-container {
   max-width: 800px;
   margin: 20px auto;
+  margin-bottom: 0;
   padding: var(--spacing-lg);
   background-color: var(--bg-primary);
   border-radius: var(--border-radius);
@@ -246,7 +246,7 @@ body.dark .theme-toggle:hover {
 }
 
 /* Responsive styles */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .chat-container {
     margin: 0;
     padding: var(--spacing-md);
